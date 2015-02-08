@@ -14,6 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/Crypt/%{upstream_name}-%{upstr
 BuildRequires: perl(Crypt::OpenSSL::Bignum)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl-devel
+BuildRequires: pkgconfig(libssl)
 
 %description
 This module provides a standard (non-OO) interface to the OpenSSL EC
